@@ -1,3 +1,113 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+body{
+	background-color: white;				
+	text-align: justify;
+	margin: 0px 150px 0px 150px;
+}
+
+h1{
+	color: rgb(2, 132, 130); 
+	font-weight: bold;
+	text-align: center;
+	clear: both;
+}
+
+nav{
+	background-color: #808080;
+}
+
+nav a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	background-color: #ffbf00;
+	width: 80px;
+	padding: 35px;
+	float: left;
+}
+
+nav a:hover{
+	background-color: #ee5f3c;
+}
+
+footer{
+	background-color: #808080;
+	text-align: center;
+	clear: both;
+}
+
+
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+       }
+
+.main{
+	text-align: center;
+}
+
+#first{
+	font-style: italic;
+	font-weight: bold;
+}
+
+#second{
+	font-style: italic;
+	font-weight: bold;
+}
+
+#third{
+	font-style: italic;
+	font-weight: bold;
+}
+
+#gametitle{
+}
+
+.explain{
+	color: black;
+}
+
+.contact{
+}
+
+.name{
+  	padding: 0.2em;
+  	letter-spacing: .25em;
+  	font-family:tahoma, sans-serif;
+  	color: red;
+}
+
+.board{
+	
+}
+
+.card{
+  height: 250px;
+  width: 200px;
+  border: 1px solid rgb(0,0,0);
+  background-color: yellow;
+  border-radius: 10px;
+  float: left;
+  margin: 8%;
+}
+
+
+main.js
+---
+var cardOne = "king";
+var cardTwo = "king";
+var cardThree = "queen";
+var cardFour = "queen";
+
+if(cardOne === cardTwo || cardThree === cardFour )
+    	{alert("You found a match!");} 
+    	else {alert("Sorry, try again.");}
+
+
+
