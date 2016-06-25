@@ -1,3 +1,7 @@
+
+var cards = ["queen", "queen", "king", "king"];
+var cardsInplay = [];
+
 /*var cardOne = "King";
 var cardTwo = "Queen";
 var cardThree = "King";
@@ -10,16 +14,13 @@ if (a === b) {
 } else { alert("Sorry, try again.");
 }
 };
-
 console.log(userChoice(cardOne, cardTwo));*/
 
-document.getElementById("board").id = "game-board";
 
 var board = document.getElementById('game-board');
 
 function createBoard() {
-  
-  for (var i=0; i<cards.length; i++) {
+   for (var i=0; i<cards.length; i++) {
     var cardElement = document.createElement('div');
     cardElement.className = 'card';
     board.appendChild(cardElement);
